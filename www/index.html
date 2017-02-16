@@ -21,16 +21,20 @@
 
 <div id="count" class="">
     <div id="formWrapper">
-        <p id="description">This is a basic Cordova App that can take in your name, send it to a cloud app and display the response.</p>
+        <p id="description">This is a simple app that sends a message to a backend AMQ and broadcast the messages to all connected clients.</p>
         <br>
 
         <div class="input-div">
-            <input id="hello_to" type="text" class="input-text" placeholder="Enter Your Name Here."/>
+            <input id="hello_to" type="text" class="input-text" placeholder="Enter Your Message Here."/>
+            <input id="clientId" type="hidden" value=""/>
+
         </div>
 
         <br>
 
-        <button id="say_hello" type="button" class="say-hello-button">Say Hello From The Cloud</button>
+        <button id="say_hello" type="button" class="say-hello-button">Send Message</button>
+        <button id="say_hello1" type="button" class="say-hello-button">Get Message</button>
+
         <div id="cloudResponse" class="cloudResponse"></div>
     </div>
 </div>
