@@ -13604,7 +13604,7 @@ if (document.getElementById('clientId').value=='') {
 //alert(randomValue);
 //alert(document.getElementById('hello_to').value);
 //connect to mq
- $fh.cloud(
+ /*$fh.cloud(
       {
         //path: 'hello',
         path: '/hello/connect',
@@ -13620,7 +13620,7 @@ if (document.getElementById('clientId').value=='') {
       function (code, errorprops, params) {
         alert('An error occured: ' + code + ' : ' + errorprops);
       }
-  );
+  );*/
 
 
 },{"fh-js-sdk":1}]},{},[2]);
