@@ -23,7 +23,7 @@ if (document.getElementById('clientId').value=='') {
         document.getElementById('cloudResponse').innerHTML = "<p>" + res.msg + "</p>";
       },
       function (code, errorprops, params) {
-        alert('An error occured: ' + code + ' : ' + errorprops);
+        //alert('An error occured: ' + code + ' : ' + errorprops);
       }
   );
 
